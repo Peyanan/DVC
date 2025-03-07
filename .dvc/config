@@ -1,6 +1,8 @@
 [core]
-    remote = myremotedata
+    remote = git@github.com:peyanan/myremotedata.git
 ['remote "myremote"']
     url = /tmp/dvc-storage
 ['remote "myremotedata"']
+    url = /tmp/dvc-storage
+['remote "git@github.com:peyanan/myremotedata.git"']
     url = /tmp/dvc-storage
